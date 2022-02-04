@@ -10,4 +10,9 @@ public class TodoServiceStub implements TodoService {
 		return  Arrays.asList("Spring", "Spring MVC", "Springboot", "Microservices","Devops");
 	}
 
+	@Override
+	public void deleteTodo(String todo) {
+		
+	}
+
 }
